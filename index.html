@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="conteiner">
+		<header class="header">
+			<div class="logo">
+				<a href="#" class="logo__bank">
+					<img src="/image/logo__bank.svg" alt="" class="logo__img">
+				</a>
+			</div>
+			<ul class="menu">
+				<li class="menu__item"><a href="#" class="menu__link">БАНК</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">БИЗНЕС</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">ИНВЕСТИЦИИ</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">СТРАХОВАНИЕ</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">МОБАЙЛ</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">ПУТЕШЕСТВИЯ</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">РАЗВЛЕЧЕНИЯ</a></li>
+			</ul>
+			<button class="button" type="button">ВОЙТИ</button>
+		</header>
+		<div class="conteiner__body">
+			<h1>Конвертер валют онлайн</h1>
+			<section class="converter">
+				<div class="left__conteiner">
+					<div class="converter__header">У меня есть </div>
+					<div class="converter__currency">
+						<ul class="converter__cur left">
+							<li class="converter__link cliced">RUB</li>
+							<li class="converter__link">USD</li>
+							<li class="converter__link">EUR</li>
+							<li class="converter__link">GBP</li>
+						</ul>
+					</div>
+					<div class="converter__input">
+						<input class="input__left" type="number" min="0">
+						<div class="course-currency"><span>1 </span><span class="currency__from"> RUB</span> = <span class="kurs__left"></span><span class="currency__to"> USD</span></div>
+					</div>
+				</div>
+
+				<div class="right__conteiner">
+					<div class="converter__header">Хочу приобрести</div>
+					<div class="converter__currency">
+						<ul class="converter__cur right">
+							<li class="converter__link">RUB</li>
+							<li class="converter__link cliced">USD</li>
+							<li class="converter__link">EUR</li>
+							<li class="converter__link">GBP</li>
+						</ul>
+					</div>
+					<div class="converter__input">
+						<input class="input__right" type="number" min="0">
+						<div class="course-currency"><span>1 </span> <span class="currency__from"> USD</span> = <span class="kurs__right"></span> <span class="currency__to"> RUB</span></div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
